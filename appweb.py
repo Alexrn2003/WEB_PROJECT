@@ -4,7 +4,7 @@ import sensor_simulator
 app = Flask(__name__)
 app.secret_key = 'clave-secreta'
 
-USUARIO = "admin"
+USUARIO = "alex"
 CONTRASENA = "1234"
 
 @app.route('/')
